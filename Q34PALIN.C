@@ -18,5 +18,5 @@ int  main() {
 	else {
 		printf("num is not palindrome num.");
 	}
-
+	return 0;
 }

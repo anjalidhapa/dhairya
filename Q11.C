@@ -1,8 +1,6 @@
 #include <stdio.h>
-#include <conio.h>
-void main (){
+int main () {
 	int totalDays,month,year,rd;
-	clrscr ();
 	printf("enter total days:");
 	scanf("%d",&totalDays);
 
@@ -15,6 +13,6 @@ void main (){
 	printf("month=%d\n",month);
 
 	printf("rd=%d\n",rd);
-	getch ();
+	return 0;
 }
 
